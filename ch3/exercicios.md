@@ -9,6 +9,6 @@
 [x] ex7 - Faça um programa que receba o peso de uma pessoa, calcule e mostre:
     a) o novo peso, se a pessoa engordar 15% sobre o peso digitado;
     b) o novo peso, se a pessoa emagrecer 20% sobre o peso digitado.
-[] ex8 - Faça um programa que receba o peso de uma pessoa em quilos, calcule e mostre esse peso em gramas.
-[] ex9 - Faça um programa que calcule e mostre a área de um trapézio. Sabe-se que: A = ((base maior + base menor) * altura)/2
-[] ex10 - Faça um programa que calcule e mostre a área de um quadrado. Sabe-se que: A = lado * lado
+[x] ex8 - Faça um programa que receba o peso de uma pessoa em quilos, calcule e mostre esse peso em gramas.
+[x] ex9 - Faça um programa que calcule e mostre a área de um trapézio. Sabe-se que: A = ((base maior + base menor) * altura)/2
+[x] ex10 - Faça um programa que calcule e mostre a área de um quadrado. Sabe-se que: A = lado * lado
