@@ -12,3 +12,11 @@
 [x] ex8 - Faça um programa que receba o peso de uma pessoa em quilos, calcule e mostre esse peso em gramas.
 [x] ex9 - Faça um programa que calcule e mostre a área de um trapézio. Sabe-se que: A = ((base maior + base menor) * altura)/2
 [x] ex10 - Faça um programa que calcule e mostre a área de um quadrado. Sabe-se que: A = lado * lado
+[x] ex11 - Faça um programa que calcule e mostre a área de um losango. Sabe-se que: A = (diagonal maior * diagonal menor)/2.
+[x] ex12 - Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários mínimos que esse funcionário ganha.
+[x] ex13 - Faça um programa que calcule e mostre a tabuada de um número digitado pelo usuário.
+[] ex14 - Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
+    a) a idade dessa pessoa em anos;
+    b) a idade dessa pessoa em meses;
+    c) a idade dessa pessoa em dias;
+    d) a idade dessa pessoa em semanas.
