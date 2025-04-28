@@ -15,8 +15,10 @@
 [x] ex11 - Faça um programa que calcule e mostre a área de um losango. Sabe-se que: A = (diagonal maior * diagonal menor)/2.
 [x] ex12 - Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários mínimos que esse funcionário ganha.
 [x] ex13 - Faça um programa que calcule e mostre a tabuada de um número digitado pelo usuário.
-[] ex14 - Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
+[x] ex14 - Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
     a) a idade dessa pessoa em anos;
     b) a idade dessa pessoa em meses;
     c) a idade dessa pessoa em dias;
     d) a idade dessa pessoa em semanas.
+[x] ex15 - João recebeu seu salário e precisa pagar duas contas atrasadas. Em razão do atraso, ele deverá pagar multa de 2% sobre cada conta. Faça um programa que calcule e mostre quanto restará do salário de João.
+[] ex16 - Faça um programa que receba o valor dos catetos de um triângulo, calcule e mostre o valor da hipotenusa.
