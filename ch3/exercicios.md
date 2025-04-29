@@ -21,4 +21,8 @@
     c) a idade dessa pessoa em dias;
     d) a idade dessa pessoa em semanas.
 [x] ex15 - João recebeu seu salário e precisa pagar duas contas atrasadas. Em razão do atraso, ele deverá pagar multa de 2% sobre cada conta. Faça um programa que calcule e mostre quanto restará do salário de João.
-[] ex16 - Faça um programa que receba o valor dos catetos de um triângulo, calcule e mostre o valor da hipotenusa.
+[x] ex16 - Faça um programa que receba o valor dos catetos de um triângulo, calcule e mostre o valor da hipotenusa.
+[x] ex17 - Faça um programa que receba o raio, calcule e mostre:
+  a) o comprimento de uma esfera; sabe-se que C = 2 * pi * R;
+  b) a área de uma esfera; sabe-se que A = pi * R²;
+  c) o volume de uma esfera; sabe-se que V = (3/4) * p * R³.
