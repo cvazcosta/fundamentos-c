@@ -23,6 +23,28 @@
 [x] ex15 - João recebeu seu salário e precisa pagar duas contas atrasadas. Em razão do atraso, ele deverá pagar multa de 2% sobre cada conta. Faça um programa que calcule e mostre quanto restará do salário de João.
 [x] ex16 - Faça um programa que receba o valor dos catetos de um triângulo, calcule e mostre o valor da hipotenusa.
 [x] ex17 - Faça um programa que receba o raio, calcule e mostre:
-  a) o comprimento de uma esfera; sabe-se que C = 2 * pi * R;
-  b) a área de uma esfera; sabe-se que A = pi * R²;
-  c) o volume de uma esfera; sabe-se que V = (3/4) * p * R³.
+    a) o comprimento de uma esfera; sabe-se que C = 2 * pi * R;
+    b) a área de uma esfera; sabe-se que A = pi * R²;
+    c) o volume de uma esfera; sabe-se que V = (3/4) * p * R³.
+[x] ex18 - Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit. Sabe-se que F = 180*(C + 32)/100.
+[x] ex19 - Sabe-se que, para iluminar de maneira correta os cômodos de uma casa, para cada m2, deve-se usar 18 W de potência. Faça um programa que receba as duas dimensões de um cômodo (em metros), calcule e mostre a sua área (em m2) e a potência de iluminação que deverá ser utilizada.
+[x] ex20 - Faça um programa que receba a medida do ângulo formado por uma escada apoiada no chão e a distância em que a escada está da parede, calcule e mostre a medida da escada para que se possa alcançar sua ponta.
+[x] ex21 - Faça um programa que receba o número de horas trabalhadas, o valor do salário mínimo e o número
+de horas extras trabalhadas, calcule e mostre o salário a receber, de acordo com as regras a seguir:
+    a) a hora trabalhada vale 1/8 do salário mínimo;
+    b) a hora extra vale 1/4 do salário mínimo;
+    c) o salário bruto equivale ao número de horas trabalhadas multiplicado pelo valor da hora trabalhada;
+    d) a quantia a receber pelas horas extras equivale ao número de horas extras trabalhadas multiplicado pelo valor
+    da hora extra;
+    e) o salário a receber equivale ao salário bruto mais a quantia a receber pelas horas extras.
+[x] ex22 - Faça um programa que receba o número de lados de um polígono convexo, calcule e mostre o número
+de diagonais desse polígono. Sabe-se que ND = N * (N − 3)/2, em que N é o número de lados do polígono.
+[x] ex23 - Faça um programa que receba a medida de dois ângulos de um triângulo, calcule e mostre a medida do
+terceiro ângulo. Sabe-se que a soma dos ângulos de um triângulo é 180 graus.
+[x] ex24 - Faça um programa que receba a quantidade de dinheiro em reais que uma pessoa que vai viajar possui. Ela
+vai passar por vários países e precisa converter seu dinheiro em dólares, marco alemão e libra esterlina. Sabe-se que a cotação do dólar é de R$ 1,80; do marco alemão, de R$ 2,00; e da libra esterlina, de R$ 3,57. O programa deve fazer as conversões e mostrá-las
+[] 25 - Faça um programa que receba uma hora (uma variável para hora e outra para minutos), calcule e
+mostre:
+    a) a hora digitada convertida em minutos;
+    b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior;
+    c) o total dos minutos convertidos em segundos.
