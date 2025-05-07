@@ -11,7 +11,9 @@
     7 a 10 | Aprovado
 
 3. Faça um programa que receba dois números e mostre o menor
+
 4. Faça um programa que receba três números e mostre o maior
+
 5. Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário.
 
     Escolha do usuário | Operação
@@ -22,4 +24,13 @@
     4     |Divisão do primeiro pelo segundo
   
     Se a opção digitada for inválida, mostre uma mensagem de erro e termine a execução do programa. Lembre-se de que, na operação 4, o segundo número deve ser diferente de zero.
-  
+
+6. Faça um programa que receba dois números e execute uma das operações listadas a seguir, de acordo com a escolha do usuário. Se for digitada uma opção inválida, mostre mensagem de erro e termine a execução do programa. As opções são:
+
+    a) O primeiro número elevado ao segundo
+
+    b) Raiz quadrada de cada um
+
+    c) Raiz cúbica de cada um
+
+7. Uma empresa decide dar um aumento de 30% aos funcionários com salários inferiores a R$ 500,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso ele não tenha direito ao aumento.
