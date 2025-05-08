@@ -34,3 +34,82 @@
     c) Raiz cúbica de cada um
 
 7. Uma empresa decide dar um aumento de 30% aos funcionários com salários inferiores a R$ 500,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso ele não tenha direito ao aumento.
+
+8. Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de aumento encontra-se na tabela a seguir:
+
+    Salário | Percentual de Aumento
+    --------|----------------------
+    Até R$ 300,00 | 35%
+    Acima de R$ 300,00 | 15%
+
+9. Um banco concederá um crédito especial aos seus clientes, de acordo com o saldo médio no último ano. Faça um programa que receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir. Mostre o saldo médio e o valor do crédito.
+
+    Saldo médio | Percentual
+    ------|------
+    Acima de R$ 400,00 | 30% do saldo médio
+    Acima de R$ 300,00 até R$ 400,00 | 25% do saldo médio
+    Acima de R$ 200,00 até R$ 300,00 | 20% do saldo médio
+    Até R$ 200,00 | 10% do saldo médio
+
+10. O preço ao consumidor de um carro novo é a soma do custo de fábrica com a porcentagem do distribuidor e dos impostos, ambos aplicados ao custo de fábrica. As porcentagens encontram-se na tabela a seguir. Faça um programa que receba o custo de fábrica de um carro e mostre o preço ao consumidor.
+
+    Custo de Fábrica | % do Distribuidor | % dos Impostos
+    ------|:------:|:------:
+    Até R$ 12.000,00 | 5 | Isento
+    Entre R$ 12.000,00 e R$ 25.000,00 | 10 | 15
+    Acima de R$ 25.000,00 | 15 | 20
+
+11. Faça um programa que receba o salário atual de um funcionário e, usando a tabela a seguir, calcule e  mostre o valor do aumento e o novo salário.
+
+    Salário | Percentual de Aumento
+    ------|:------:
+    Até R$ 300 | 15%
+    Acima de R$ 300 e abaixo de R$ 600 | 10%
+    Entre R$ 600 e R$ 900 | 5%
+    Acima de R$ 900 | 0%
+
+12. Faça um programa que receba o salário bruto de um funcionário e, usando a tabela a seguir, calcule e mostre o valor a receber. Sabe-se que este é composto pelo salário bruto acrescido de gratificação e descontado o imposto de 7% sobre o salário.
+
+    Salário | Gratificação
+    ------|:------:
+    Até R$ 350                         | R$ 100
+    Acima de R$ 350 e abaixo de R$ 600 | R$ 75
+    Entre R$ 600 e R$ 900              | R$ 50
+    Acima de R$ 900                    | R$ 35
+
+13. Faça um programa que receba o preço de um produto, calcule e mostre, de acordo com as tabelas a seguir, o novo preço e a classificação.
+
+    ## Tabela 1
+
+    Preço | %
+    ---|:---:
+    Até R$ 50 | 5
+    Entre R$ 50 e R$ 100 | 10
+    Acima de R$ 100 | 15
+
+    ## Tabela 2
+
+    Novo Preço | Classificação
+    --- | :---:
+    Até R$ 80 | Barato
+    Entre R$ 80 e R$ 120 (inclusive) | Normal
+    Entre R$ 120 e R$ 200 | Caro
+    Maior que R$ 200 | Muito Caro
+
+14. Faça um programa que receba o salário de um funcionário e, usando a tabela a seguir, calcule e mostre o novo salário.
+
+    Faixa salarial | % de aumento
+    --- | :---:
+    Até R$ 300 | 50%
+    Acima de R$ 300 até R$ 500 | 40%
+    Acima de R$ 500 até R$ 700 | 30%
+    Acima de R$ 700 até R$ 800 | 20%
+    Acima de R$ 800 até R$ 1.000 | 10%
+    Acima de R$ 1.000 | 5%
+
+15. Uma agência bancária possui dois tipos de investimentos, conforme o quadro a seguir. Faça um programa que receba o tipo de investimento e seu valor, calcule e mostre o valor corrigido após um mês de investimento, de acordo com o tipo de investimento.
+
+    Tipo | Descrição | Rendimento mensal
+    --- | --- | :---:
+    1 | Poupança | 3%
+    2 | Fundos de renda fixa | 4%
