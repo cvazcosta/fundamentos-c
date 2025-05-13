@@ -113,3 +113,29 @@
     --- | --- | :---:
     1 | Poupança | 3%
     2 | Fundos de renda fixa | 4%
+
+16. Uma empresa decide aplicar descontos nos seus preços usando a tabela a seguir. Faça um programa que receba o preço atual de um produto e seu código, calcule e mostre o valor do desconto e o novo preço.
+
+    Preço atual | % de desconto
+    --- | ---
+    Até 30 | Sem desconto
+    Entre 30 e 100 | 10%
+    Acima de 100 | 15%
+
+17. Faça um programa que verifique a validade de uma senha fornecida pelo usuário. A senha é 4531. O programa deve mostrar uma mensagem de permissão de acesso ou não.
+
+18. Faça um programa que receba a idade de uma pessoa e mostre a mensagem de maioridade ou não.
+
+19. Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, utilizando as seguintes fórmulas (onde h é a altura):
+    * Para homens: $(72.7 * h) - 58$
+    * Para mulheres: $(62.1 * h) - 44.7$
+
+20. Faça um programa que receba a idade de um nadador e mostre sua categoria, usando as regras a seguir. Para idade inferior a 5, mostre uma mensagem de aviso.
+
+    Categoria | Idade
+    --- | :---:
+    Infantil | 5 a 7
+    Juvenil | 8 a 10
+    Adolescente | 11 a 15
+    Adulto | 16 a 30
+    Sênior | Acima de 30
