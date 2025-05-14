@@ -28,7 +28,7 @@ int main () {
     else if (codigo >= 10 && codigo <= 20)
       printf("Procedência: Centro-Oeste\n");
     else
-      printf("Procedência: Nordeste\n");
+      printf("Procedência: Noroeste\n");
   } 
   else
     printf("Entrada inválida. Informe um código entre 1 e 30.\n");
