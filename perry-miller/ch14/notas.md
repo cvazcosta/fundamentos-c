@@ -18,3 +18,12 @@ while (condition)
 ```
 
 Funciona de forma similar ao while, porém o bloco de execução será executado pelo menos uma vez. Caso o teste do while seja verdadeiro, então haverá a repetição.
+
+## for
+
+```C
+for (startExpression; testExpression; countExpression)
+{ block of one or more C statements; }
+```
+
+O loop for permite especificar o número de vezes que desejamos que o o bloco seja executado.
