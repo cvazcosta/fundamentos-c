@@ -1,19 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 int main () {
 
   int idade, f1, f2, f3, f4, f5;
   float p1, p2;
 
-  srand(time(0));
   f1 = f2 = f3 = f4 = f5 = 0;
 
-  for (int i = 0; i < 7; i++)
+  for (int i = 1; i <= 8; i++)
   {
-    idade = rand() % 100;
-    printf("Idade %d: %d\n", i, idade);
+    printf("Informe a %dª idade: \n", i);
+    scanf(" %d", &idade);
+    
     if (idade <= 15)
       f1++;
     else if (idade > 15 && idade <= 30)
@@ -26,6 +24,7 @@ int main () {
       f5++;
   }
 
+  printf("\n##### Resultados #####\n");
   printf("\nAté 15 anos: %d\n", f1);
   printf("De 16 a 30 anos: %d\n", f2);
   printf("De 31 a 45 anos: %d\n", f3);
