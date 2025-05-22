@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 int main () {
   int peso, idade;
   float media, f1, f2, f3, f4, s1, s2, s3, s4, m1, m2, m3, m4;
 
-  srand(time(0));
-
+  // Inicializando variáveis de soma e quantidade
   s1 = s2 = s3 = s4 = f1 = f2 = f3 = f4 = 0;
 
+  // Inicializando o loop para receber 15 entradas de idade e peso
   for (int i = 1; i <= 15; i++)
   {
+    // Solicitando a idade ao usuário com uma verificação do valor informado
     do
     {
       printf("Informe a %dª idade: ", i);
@@ -22,6 +21,7 @@ int main () {
       }      
     } while (idade < 1);
 
+    // Solicitando o peso ao usuário com uma verificação do valor informado
     do
     {
       printf("Informe o %dº peso: ");
