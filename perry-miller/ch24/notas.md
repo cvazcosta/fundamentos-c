@@ -12,7 +12,7 @@ Para usar uma variável pointer é preciso defini-la. Vamos aprender sobre dois 
 
 Operador | Descrição
 -------- | -------------------
-`&`        | Address-of operator
+`&`      | Address-of operator
 `*`      | Dereferencing operator
 
 O **address-of** nós usamos na função `scanf()` porque ela requer que nós determinemos o endereço de variáveis que não são arrays (por isso não a usamos no caso de strings, que são arrays de caracteres).
