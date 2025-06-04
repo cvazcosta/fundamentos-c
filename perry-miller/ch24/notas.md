@@ -4,7 +4,7 @@ Os *pointers* são considerados como sendo a razão pela qual a linguagem C é t
 
 ## Endereços de memória
 
-Quando um programa entra em execução ele e suas respectivas variáveis fica armazenado na **memória principal**. A memória tem diversas localizações para armazenar dados e cada uma dessas localizações tem um **endereço único**. A memória funciona como um grande array com cada endereço de memória funcionando como um diferente índice (subscript) e cada espaço de memória como um elemento diferente deste array.
+Quando um programa entra em execução ele, e suas respectivas variáveis, fica armazenado na **memória principal**. A memória tem diversas localizações para armazenar dados e cada uma dessas localizações tem um **endereço único**. A memória funciona como um grande array com cada endereço de memória funcionando como um diferente índice (subscript) e cada espaço de memória como um elemento diferente deste array.
 
 ## Definindo variáveis pointers
 

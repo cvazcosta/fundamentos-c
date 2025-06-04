@@ -54,7 +54,7 @@ int main ()
   case 'E':
     printf("The employee discount saves you 25%% on the ");
     printf("$%.2f price", *pPrice);
-    printf("\nTotal ticket cost: $%.2f\n", (*pPrice*.75*kids));
+    printf("\nTotal ticket cost: $%.2f\n", (*pPrice *.75 * *pKids));
     break;
 
   case 'S':
