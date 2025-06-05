@@ -12,7 +12,7 @@ Quando definimos o array acima acontecem duas coisas:
 
 1. São atribuídos índices (subscripts) para cada elemento contido no array.
 
-2. É atribuído um pointer para o array chamado de `vals`.
+2. É atribuído um pointer para o 1º elemento do array chamado de `vals`.
 
 ![Esquema visual da definição de um array](image.png)
 
