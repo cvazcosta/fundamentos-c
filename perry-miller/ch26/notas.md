@@ -67,4 +67,72 @@ Agora que temos esses 10 integers nós podemos tratá-lo da mesma forma como tra
 
 ### Qual a grande vantagem de `malloc()`?
 
-Ela pode ser usada em qualquer lugar no programa, são somente onde definimos variáveis e arrays, usualmente no início. Assim, se nosso programa precisar de 100 double values é possível alocar esse espaço somente no momento em que isto for necessário e não no começo, o que fará com que esse espaço seja usado do início ao fim do programa.
+Ela pode ser usada em qualquer lugar no programa, não somente onde definimos variáveis e arrays, usualmente no início. Assim, se nosso programa precisar de 100 double values é possível alocar esse espaço somente no momento em que isto for necessário e não no começo, o que faria com que esse espaço fosse usado do início ao fim do programa.
+
+## E se não tiver heap memory suficiente?
+
+Se não houver memória suficiente nossa variável pointer vai apontar para o valor zero. Por isto, muitos programadores colocam um if logo após uma declaração `malloc()` como no exemplo abaixo:
+
+```C
+temps = (int *) malloc(10 * sizeof(int));
+if (temps == 0)
+{
+  printf("Ops! Not enough memory!\n");
+  exit(1); // Terminate the program
+}
+```
+
+Uma forma mais comum de fazer essas verificações contra valores nulos é utilizar o operador not (`!`) como da forma que segue:
+
+`if (!temps)`
+
+## Liberando heap memory
+
+Para liberar a memória que usamos por meio da pointer `temps` basta usar:
+
+```C
+free(temps);
+```
+
+E aqueles 10 integer spaces serão devolvidos ao sistema. Se porventura foram usados mais espaços, todos eles serão devolvidos.
+
+Essa função deve ser usada em conjunto com `malloc()` para que nossos programas sejam eficientes no uso de memória.
+
+## Múltiplas alocações
+
+Podemos usar arrays de pointers para armazenar vários pointers onde cada um pode apontar para um conjunto diferente de memory heap, conforme a necessidade de nosso programa.
+
+```C
+int * temps[50];
+```
+
+No exemplo acima nós criamos um array que contém 50 pointers. Em cada posição desse array podemos ter um pointer que vai apontar para o primeiro endereço de memória de um determinado conjunto de memória heap.
+
+Fazendo assim, embora os 50 pointers estejam declarados desde o início da execução, é possível alocar e desalocar memória heap no tempo e extensão que nós determinarmos.
+
+```C
+for (ctr = 0; ctr > 50; ctr++)
+{
+  puts("How many readings for the city?");
+  scanf(" %d", &num);
+
+  temps[ctr] = (int *) malloc(num * sizeof(int));
+}
+
+// A próxima seção de código poderia perguntar por cada temperatura
+
+// A outra poderia ser relacionada a cálculos específicos
+
+// Ao final, liberamos a memória que utilizamos
+
+for (ctr = 0; ctr < 50; ctr++)
+{
+  free(temps[ctr]);
+}
+```
+
+![alt text](image.png)
+
+Acima é um esquema gráfico do que ocorre quando definimos um array de integer pointers onde cada pointer aponta para o primeiro endereço de memória de alguma seção contígua da memória heap para uso específico conforme as especificações e necessidades da execução do programa.
+
+Vejamos este [exemplo](./sample1.c) de código para entendermos na prática como usamos as funções e o conhecimento base que adquirimos ao longo deste capítulo.
