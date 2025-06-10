@@ -28,7 +28,7 @@ Também é possível inicializar um array com caracteres sem considerá-lo como 
 
 `char grades[5] = {'A', 'B', 'C', 'D', 'E'};`
 
-Como o *null zero* (\0) não é o último elemento do array, ele não é tratado como string. Se ele for incluído na última posição, seria possível imprimi-lo usando `puts()` ou `printf()` e o `%s`.
+Como o *null zero* (`\0`) não é o último elemento do array, ele não é tratado como string. Se ele for incluído na última posição, seria possível imprimi-lo usando `puts()` ou `printf()` e o `%s`.
 
 O exemplo abaixo seria uma string:
 
@@ -51,7 +51,7 @@ Para atribuir zero a todos os elementos de um array fazemos:
 
 `float amount[100] = {0.0};`
 
-A maioria dos compiladores de C zeram todos os elementos de um array se nós definirmos o array com pelo menos um elemento com valor definido.
+A maioria dos compiladores de C zeram todos os elementos de um array se nós definirmos o array com pelo menos um elemento com valor definido. [Quer testar](./sample2.c)?
 
 ## Colocando valores em arrays
 
