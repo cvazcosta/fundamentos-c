@@ -29,7 +29,7 @@ int main()
     exit(1);
   }  
 
-  // Obtendo aleatoriamente para o array
+  // Obtendo números de 1 a 500 aleatoriamente para o array
   for (i = 0; i < aSize; i++)
   {
     randomNums[i] = (rand() % 500) + 1;
