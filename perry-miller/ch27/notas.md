@@ -28,7 +28,7 @@ struct [structure tag]
 }
 ```
 
-A *keyword* `struct` define apenas o *layout* da *structure. A `structure tag` é o nome da estrutura.
+A *keyword* `struct` define apenas o *layout* da *structure*. A `structure tag` é o nome da estrutura.
 
 As `member definition` são as definições de tipos de dados que fazemos como `int age`, por exemplo. Mas neste caso, não estamos definindo variáveis e sim **members**, dando um nome a essa parte específica da estrutura.
 
@@ -55,7 +55,7 @@ Veja um diagrama que representa a *struct* que acabamos de criar:
 
 ![struct-diagram](image.png)
 
-É importante notar que nós não definimos 8 variáveis. `invStruct` representa a estrutura de um tipo de dados que nós criamos. Após definir como é a estrutura é que podemos definir variáveis que sigam essa estrutura.
+É importante notar que nós não definimos 8 variáveis. `invStruct` representa a estrutura de um **tipo de dados que nós criamos**. Após definir como é a estrutura é que podemos definir variáveis que sigam essa estrutura.
 
 Quando criamos *structs* que precisaremos reutilizar é importante considerar colocá-lo no seu próprio *header file* ou em um *header file* com outras *structs* comuns ao seu programa.
 
@@ -64,7 +64,7 @@ Normalmente, os programadores colocam essas declarações de *struct* antes da f
 Para declarar uma variável com esse data type basta fazer:
 
 ```C
-#include <struct.h>
+#include "struct.h"
 
 int main(){
   struct invStruct item1;
