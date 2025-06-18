@@ -1,0 +1,13 @@
+
+
+Here is the collection of books: 
+#1: Senhor dos Anéis by Tolkien
+It is 587 pages and cost $50.25
+
+#2: O Ceticismo da Fé by Rodrigo Silva
+It is 624 pages and cost $41.89
+
+#3: Os Egípcios by Isaac Asimov
+It is 321 pages and cost $56.90
+
+More books to come!
