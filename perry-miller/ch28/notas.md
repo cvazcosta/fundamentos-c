@@ -89,4 +89,4 @@ Além de `fgets()` também é possível usar `fscanf()` para pegar valores numé
 
 ## Adicionando dados a um Arquivo
 
-Vamos adicionar a linha `More books to come!` no final do arquivo `BookInfo.txt` usando o *append mode* neste programa.
+Vamos adicionar a linha `More books to come!` no final do arquivo `BookInfo.txt` usando o *append mode* neste [programa](./sample3.c).
