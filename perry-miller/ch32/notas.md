@@ -30,7 +30,7 @@ Se nossa função não retorna um valor ou não recebe nenhum valor como argumen
 
 `void doSomething(void)`
 
-De acordo com o padrão ANSI (American National Standards Institute), `main()` não pode receber o data type `void`. Deve ser sempre `int`. No entanto, a maioria dos compiladores permitem esta tipagem.
+De acordo com o padrão ANSI (American National Standards Institute), `main()` não pode receber o data type `void`. Deve ser sempre `int`. No entanto, a maioria dos compiladores permite esta tipagem.
 
 ## Passo final: Prototype
 
