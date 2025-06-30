@@ -100,6 +100,7 @@ int main()
     printf("\nYour bank is now %d.\n", bank);
     printf("\nDo you want to play again? ");
     scanf(" %c", &stillPlay);
+    getchar();
     
   } while (toupper(stillPlay) == 'Y');
 
@@ -126,9 +127,9 @@ void printGreeting()
   printf("You want to make the best possible hand\n");
   printf("\nHere is the table for winnings (assuming a bet of 1 credit):");
   printf("\nPair\t\t\t\t1 credit");
-  printf("\nTwo Pairs\t\t\t\t2 credits");
+  printf("\nTwo Pairs\t\t\t2 credits");
   printf("\nThree of a kind\t\t\t3 credits");
-  printf("\nStraight\t\t\t\t4 credits");
+  printf("\nStraight\t\t\t4 credits");
   printf("\nFlush\t\t\t\t5 credits");
   printf("\nFull House\t\t\t8 credits");
   printf("\nFour of a kind\t\t\t10 credits");
@@ -247,6 +248,7 @@ int getBet()
     printf("How much do you want to bet? (Enter a number ");
     printf("1 to 5, or 0 to quit the game): ");
     scanf(" %d", &bet);
+    getchar();
 
     if ((bet >= 0) && (bet <= 5))
     {
