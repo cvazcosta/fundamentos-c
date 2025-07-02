@@ -32,7 +32,7 @@ O exemplo acima mostra como sair do loop digitando um número negativo para inte
 
 ## `continue`
 
-Essa keyword faz com que todo o corpo do loop abaixo do `continue` seja ignorando na respectiva iteração voltando imediatamente ao topo do loop e começando o novo ciclo. Assim como o `break` ele também é normalmente usado dentro de um if.
+Essa keyword faz com que todo o corpo do loop abaixo do `continue` seja ignorado na respectiva iteração voltando imediatamente ao topo do loop e começando o novo ciclo. Assim como o `break` ele também é normalmente usado dentro de um if.
 
 ```C
 int main () {
