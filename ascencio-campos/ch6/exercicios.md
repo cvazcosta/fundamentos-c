@@ -18,4 +18,16 @@
 
     c) os números múltiplos de 2 e de 3
 
-Nota: fiz os dois primeiros exercícios usando apenas estruturas de decisão e repetição, mas acredito que haja uma forma mais eficaz usando vetores para armazenar os valores de interesse e depois mostrá-los. Farei isso depois.
+3. Faça um programa para controlar o estoque de mercadorias de uma empresa. Inicialmente, o programa deverá preencher dois vetores com dez posições cada, onde o primeiro corresponde ao código do produto e o segundo, ao total desse produto em estoque. Logo após, o programa deverá ler um conjunto indeterminado de dados contendo o código de um cliente e o código do produto que ele deseja comprar, juntamente com a quantidade. Código do cliente igual a zero indica fim do programa. O programa deverá verificar:
+
+    a) se o código do produto solicitado existe. Se existir, tentar atender ao pedido; caso contrário, exibir mensagem Código inexistente;
+
+    b) cada pedido feito por um cliente só pode ser atendido integralmente. Caso isso não seja possível, escrever a mensagem Não temos estoque suficiente dessa mercadoria. Se puder atendê-lo, escrever a mensagem Pedido atendido. Obrigado e volte sempre;
+
+    c) efetuar a atualização do estoque somente se o pedido for atendido integralmente;
+
+    d) no final do programa, escrever os códigos dos produtos com seus respectivos estoques já atualizados
+
+4. Faça um programa que preencha um vetor com quinze elementos inteiros e verifique a existência de elementos iguais a 30, mostrando as posições em que apareceram.
+
+5. Uma escola deseja saber se existem alunos cursando, simultaneamente, as disciplinas Lógica e Linguagem de Programação. Coloque os números das matrículas dos alunos que cursam Lógica em um vetor, quinze alunos. Coloque os números das matrículas dos alunos que cursam Linguagem de Programação em outro vetor, dez alunos. Mostre o número das matrículas que aparecem nos dois vetores.
