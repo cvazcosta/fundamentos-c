@@ -32,7 +32,7 @@ Esse método é considerado seguro exatamente por isso: ele não altera o valor 
 
 A linguagem C usa esse método para todas as variáveis que não são arrays.
 
-### Passando por endereço
+### Passando por endereço (Pass By Reference)
 
 Quando passamos um array para outra função, isto ocorre usando o método **by address**. Na prática, em vez de ser passada uma cópia do valor, é passado o endereço de memória onde o array está armazenado.
 
