@@ -41,3 +41,11 @@
     c) o maior valor a receber e o nome de quem o receberá;
 
     d) o menor valor a receber e o nome de quem o receberá.
+
+7. Faça um programa que preencha um vetor com dez números reais, calcule e mostre a quantidade de números negativos e a soma dos números positivos desse vetor.
+
+8. Faça um programa que preencha um vetor com os nomes de sete alunos e carregue outro vetor com a média final desses alunos. Calcule e mostre:
+
+    a) o nome do aluno com maior média (desconsiderar empates);
+
+    b) para cada aluno não aprovado, isto é, com média menor que 7, mostrar quanto esse aluno precisa tirar na prova de exame final para ser aprovado. Considerar que a média para aprovação no exame é 5;
