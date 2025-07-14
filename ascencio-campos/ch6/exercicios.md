@@ -54,7 +54,17 @@
 
     Sabe-se que os produtos que sofrerão aumento são aqueles que possuem código par ou preço superior a R$ 1.000,00. Sabe-se ainda que, para os produtos que satisfazem as duas condições anteriores, código e preço, o aumento será de 20%; para aqueles que satisfazem apenas a condição de código, o aumento será de 15%; e para aqueles que satisfazem apenas a condição de preço, o aumento será de 10%.
 
-10. Faça um programa que preencha um vetor com dez números inteiros e um segundo vetor com cinco nú-
-meros inteiros, calcule e mostre dois vetores resultantes. O primeiro vetor resultante será composto pela soma de cada número par do primeiro vetor somado a todos os números do segundo vetor. O segundo
-vetor resultante será composto pela quantidade de divisores que cada número ímpar do primeiro vetor
-tem no segundo vetor.
+10. Faça um programa que preencha um vetor com dez números inteiros e um segundo vetor com cinco números inteiros, calcule e mostre dois vetores resultantes. O primeiro vetor resultante será composto pela soma de cada número par do primeiro vetor somado a todos os números do segundo vetor. O segundo vetor resultante será composto pela quantidade de divisores que cada número ímpar do primeiro vetor tem no segundo vetor.
+
+11. Faça um programa que receba dez números inteiros e armazene-os em um vetor. Calcule e mostre dois vetores resultantes: o primeiro com os números pares e o segundo, com os números ímpares.
+
+12. Faça um programa que receba cinco números e mostre a saída a seguir:
+
+    ```Plain Text
+    Digite o 1º número 5
+    Digite o 2º número 3
+    Digite o 3º número 2
+    Digite o 4º número 0
+    Digite o 5º número 2
+    Os números digitados foram: 5 + 3 + 2 + 0 + 2 = 12
+    ```
