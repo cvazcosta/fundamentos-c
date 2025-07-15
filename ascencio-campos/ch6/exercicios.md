@@ -68,3 +68,19 @@
     Digite o 5º número 2
     Os números digitados foram: 5 + 3 + 2 + 0 + 2 = 12
     ```
+
+13. Faça um programa que receba o nome e a nota de oito alunos e mostre o relatório a seguir:
+
+    ```Plain Text
+    Digite o nome do 1o aluno: Carlos
+    Digite a nota do Carlos: 8
+    Digite o nome do 2o aluno: Pedro
+    Digite a nota do Pedro: 5
+    Relatórios de notas
+    Carlos 8.0
+    Pedro 5.0
+    ..
+    ..
+    ..
+    Média da classe = ??
+    ```
