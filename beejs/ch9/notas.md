@@ -48,7 +48,7 @@ Vejamos este [exemplo](./sample3.c) na prática que nos retorna um texto após p
 
 ## Formatted Input
 
-Vamos ver como obter strings separadas de um arquivo de texto e formatá-las em outro texto usando `fscanf()` neste programa.
+Vamos ver como obter strings separadas de um arquivo de texto e formatá-las em outro texto usando `fscanf()` neste [programa](./sample4.c).
 
 A função `fscanf()` não faz a leitura de whitespace e retorna `EOF` ou error no fim do arquivo.
 
