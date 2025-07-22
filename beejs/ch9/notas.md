@@ -69,3 +69,32 @@ A diferença na abertura do arquivo é a adição de "b" ao tipo de ação. Se f
 Arquivos binários podem conter NUL characters. E o NUL é o marcador de fim de string em C. Por isso, nesses casos, é raro alguém usar `fprintf()` e suas relacionadas para ler e escrever bytes no *stream*.
 
 É mais comum usarmos `fread()` e `fwrite()` para ler e escrever um número específico de bytes para o *stream*.
+
+### Escrevendo arquivos binários com `fwrite()`
+
+Vamos ver um exemplo neste [programa](./sample6.c).
+
+Como vimos, a função `fwrite()` recebe 4 argumentos. Os dois argumentos do meio são basicamente uma forma de declararmos "*cada item tem um determinado tamanho $x$ e queremos passar a quantidade $y$*".
+
+Para vermos o arquivo que geramos `output.bin` podemos rodar no terminal o seguinte comando:
+
+```bash
+$ hexdump -C output.bin
+
+00000000  05 25 00 58 ff 0c                                 |.%.X..|
+00000006
+```
+
+`00000000` é o deslocamento (offset) dentro do arquivo onde essa linha da saída começa.
+
+Os valores `05 25 00 58 ff 0c` são os valores dos bytes (e essa linha teria mais valores — até 16 por linha — se houvesse mais bytes no arquivo).  
+
+Na parte direita, entre os símbolos de barra vertical (`|`), está a melhor tentativa do comando hexdump de imprimir os caracteres que correspondem a esses bytes. Ele imprime um ponto (.) se o caractere não for imprimível.  
+
+Neste caso, como estamos apenas imprimindo dados binários aleatórios, essa parte da saída é apenas lixo (ou seja, não tem significado legível). Mas se tivéssemos escrito uma string ASCII no arquivo, veríamos ela ali.
+
+Esse `00000006` que apareceu ao final da saída do `hexdump -C` indica o offset final, ou seja, a posição do próximo byte se o arquivo tivesse mais dados. Isso quer dizer que o arquivo tem exatamente 6 bytes, e o próximo byte estaria no offset 0x06.
+
+### Lendo arquivos binários com `fread()`
+
+Vejamos este [exemplo](./sample7.c) para entender melhor.
