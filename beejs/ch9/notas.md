@@ -98,3 +98,20 @@ Esse `00000006` que apareceu ao final da saída do `hexdump -C` indica o offset 
 ### Lendo arquivos binários com `fread()`
 
 Vejamos este [exemplo](./sample7.c) para entender melhor.
+
+A função `fread()` retorna o número de bytes lido ou `0` no caso do `EOF`. Por isso usamos um loop que persiste enquanto os valores retornados por essa função forem maiores que zero.
+
+A função `fread()` recebe os seguintes argumentos:
+
+- O endereço de memória de uma *unsigned char* que vai armazenar o caracter lido
+- O tamanho unitário do tipo de dado que será lido
+- A quantidade total de dados que será lida
+- FILE pointer que é a origem dos dados
+
+#### Uma nota sobre a escrita de dados binários
+
+Ao escrever números multibinários direto da memória, não é possível fazer isso de forma portátil, isto é, não há garantias de que o número que queríamos ter representado será de fato, por fatores relacionados às diferentes arquiteturas dos computadores e também ao comportamento dos compiladores.
+
+A solução deste problema é *serialize data* por meio de algumas bibliotecas como a do Google chamada *protocol buffers*.
+
+O recado é: ao escrever dados binários em um stream, sempre serializar os dados para torná-los portáteis.
