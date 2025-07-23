@@ -5,3 +5,5 @@
 test.c
 test.h
 *.bin
+.idea/
+*.iml
