@@ -84,3 +84,25 @@
     ..
     Média da classe = ??
     ```
+
+14. Faça um programa que receba o nome e duas notas de seis alunos e mostre o relatório a seguir. Relatório de notas:
+
+    ALUNO  | 1ª PROVA | 2ª PROVA | MÉDIA | SITUAÇÃO
+    ------ |----------| ---------| ------| ------------
+    Carlos | 8,0      | 9,0      | 8,5   | Aprovado
+    Pedro  | 4,0      | 5,0      | 4,5   | Reprovado
+
+    - média da classe = ?
+    - percentual de alunos aprovados = ?%
+    - percentual de alunos de exame = ?%
+    - percentual de alunos reprovados = ?%
+
+15. Faça um programa que receba o nome de oito clientes e armazene-os em um vetor. Em um segundo vetor, armazene a quantidade de DVDs locados em 2011 por cada um dos oito clientes. Sabe-se que, para cada dez locações, o cliente tem direito a uma locação grátis. Faça um programa que mostre o nome de todos os clientes, com a quantidade de locações grátis a que ele tem direito.
+
+16. Faça um programa que receba o nome de cinco produtos e seus respectivos preços. Calcule e mostre:
+
+    - a quantidade de produtos com preço inferior a R$ 50,00;
+    - o nome dos produtos com preço entre R$ 50,00 e R$ 100,00;
+    - a média dos preços dos produtos com preço superior a R$ 100,00.
+
+17. Faça um programa que preencha dois vetores de dez posições cada, determine e mostre um terceiro contendo os elementos dos dois vetores anteriores ordenados de maneira decrescente.
