@@ -106,3 +106,10 @@
     - a média dos preços dos produtos com preço superior a R$ 100,00.
 
 17. Faça um programa que preencha dois vetores de dez posições cada, determine e mostre um terceiro contendo os elementos dos dois vetores anteriores ordenados de maneira decrescente.
+
+18. Faça um programa que preencha um vetor com quinze números, determine e mostre:
+
+    - o maior número e a posição por ele ocupada no vetor;
+    - o menor número e a posição por ele ocupada no vetor;
+
+19. Faça um programa que leia dois vetores de dez posições e faça a multiplicação dos elementos de mesmo índice, colocando o resultado em um terceiro vetor. Mostre o vetor resultante.
