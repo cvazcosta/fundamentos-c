@@ -7,3 +7,4 @@ test.h
 *.bin
 .idea/
 *.iml
+*.exe
